@@ -1,7 +1,10 @@
 fun main(args:Array<String>){
     //1. List
-    //val fruitList = listOf("Banna","Apple","Cherry") //값을 바꾸지 못함
+    //Immutable List
+    val fruitList = listOf("Banna","Apple","Cherry") //값을 바꾸지 못함
+    println(fruitList)
 
+    //mutable List
     val mutableList = mutableListOf("Banna","Apple","Cherry")
     println("First fruit: ${mutableList[0]}")
     mutableList[0]="Strawberry"//값을 바꿀 수 있음
@@ -40,10 +43,4 @@ fun main(args:Array<String>){
     mutableMap.remove("name")
     mutableMap.replace("age",80)
     println(mutableMap)
-
-
-
-
-
-
 }
