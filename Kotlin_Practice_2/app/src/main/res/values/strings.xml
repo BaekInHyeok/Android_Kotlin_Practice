@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Kotlin_Practice_2</string>
     <string name="title_activity_sub">subActivity</string>
+    <string name="title_activity_two_color">TwoColorActivity</string>
 </resources>
